@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer row">
+	<footer id="colophon" class="site-footer row text-center">
 		<div class="site-info col-md-12">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'mt87' ) ); ?>"><?php
 				/* translators: %s: CMS name, i.e. WordPress. */
@@ -22,7 +22,7 @@
 			<span class="sep"> | </span>
 			<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'mt87' ), 'mt87', '<a href="http://underscores.me/">Mike traves</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'mt87' ), 'mt87', 'Mike Traves' );
 			?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

@@ -100,7 +100,6 @@ function mt87_content_width() {
 add_action( 'after_setup_theme', 'mt87_content_width', 0 );
 
 
-
 /**
  * Enqueue scripts and styles.
  */

@@ -9,12 +9,12 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area col-md-8">
 		<main id="main" class="site-main">
 
 		<?php
 		while ( have_posts() ) : the_post();
-
+		
 			get_template_part( 'template-parts/content', get_post_type() );
 
 			the_post_navigation();
@@ -30,6 +30,7 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php
-get_sidebar();
-get_footer();
+    <div class="col-md-4">
+        <?php get_sidebar(); ?>
+    </div>
+<?php get_footer();
