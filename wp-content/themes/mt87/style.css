@@ -153,6 +153,12 @@ h1.site-title, p.site-title {
 	text-decoration: none;
 }
 
+.site-description {
+	font-size: 16px;
+	margin: 10px 0;
+	letter-spacing: 1px;
+}
+
 ul, ol {
 	margin: 0 0 1.5em 3em;
 }
@@ -197,7 +203,7 @@ table {
 }
 
 h1.entry-title, h2.entry-title {
-	margin-top: 1.5em;
+	margin-top: .5em;
 }
 
 /*--------------------------------------------------------------
@@ -487,7 +493,17 @@ a:hover, a:active {
 }
 
 .widget select {
-	max-width: 100%;
+	max-width: 100%;}
+
+/*Tag Cloud	*/
+
+.tagcloud a {
+	padding: 3px;
+}
+
+.tagcloud a:hover {
+	color: green;
+	text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -567,6 +583,11 @@ object {
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	display: inline-block;
+}
+
+.custom-logo {
+	height: 80px;
+	width: 80px;
 }
 
 /*--------------------------------------------------------------
